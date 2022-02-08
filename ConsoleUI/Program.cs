@@ -74,7 +74,9 @@ namespace ConsoleUI
 
             foreach (var item in vehicles)
             {
-                Console.WriteLine($"Vehicle OffRoad :Vehcile Make: {item.Make}\nVehicle Model: {item.Model}\nVehicle Year: {item.Year}");
+                Console.WriteLine($"Vehcile Make: {item.Make}\nVehicle Model: {item.Model}\nVehicle Year: {item.Year}");
+                                     
+
                 item.DriveAbstract();
                 item.DriveVirtual();
                 Console.WriteLine("\n\n");
